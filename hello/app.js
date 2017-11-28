@@ -5,8 +5,6 @@ var bodyParser = require('body-parser');
 var Alexa = require('alexa-sdk');
 var app = express();
 
-
-// Declare handlers for processing the incoming intents
 var handlers = {
     'Hello': function () {
         this.emit(':tell', "Hello! This is alexa speaking from your local network monkaS");
